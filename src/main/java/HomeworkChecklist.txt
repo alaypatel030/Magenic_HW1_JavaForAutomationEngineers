@@ -2,14 +2,21 @@ TODO HOMEWORK CHECKLIST:
 PROGRAMMING TASKS
     Calculator.java
         [X] Pull down Homework 1's starting branch
-        [ ] Finish the subtract method
-        [ ] Fix the bug in the multiply method
-        [ ] Run the main method to see what happens
-        [ ] Run the TestNG tests and make sure they all pass
+        [X] Finish the subtract method
+        [X] Fix the bug in the multiply method
+        [X] Run the main method to see what happens
+        [X] Run the TestNG tests and make sure they all pass
     CalculatorTest
-        [ ] Uncomment the marked lines of code
-        [ ] Run all Tests
+        [X] Uncomment the marked lines of code
+        [X] Run all Tests
 
 SHORT ANSWERS
-    [ ] Comment below what the difference between TestNG and the main method is
-        // ANSWER HERE:
+    [X] Comment below what the difference between TestNG and the main method is
+        // Main Method : 
+        	Allows us to run the code within the main method to execute and retrieve the output results based on the given condition and methods being called within the main method. 
+        	We are not able to run execute java class without the main method.
+        	  
+        // TestNG : 
+        	TestNG can be used for a testing the class/methods based on expected output; which allows user to test the functionality after the code change to ensure that the code change did not break an existing/previous logic. 
+        	TestNG classes are can be executed based on @Test annotations where one can executed all tests using TestNG.
+        	Requirement : TestNG plugin in IDE ( I used eclipse )
